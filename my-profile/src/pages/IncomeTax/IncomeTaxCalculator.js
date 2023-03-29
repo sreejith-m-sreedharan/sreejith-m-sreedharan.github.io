@@ -2,15 +2,17 @@ import * as classes from "./IncomeTaxCalculator.css";
 import { useState } from "react";
 
 const STANDARD_DEDUCTION = 50000;
+const EDUCATIONAL_CESS = 4;
 function OldRegime(props) {
     const income = props.income;
     const deductions = props.deductions;
 
     const totalIncome = +income.fromSalary + +income.fromDigitalAssets + +income.fromInterest + +income.fromInterestPaidOnHomeLoan + +income.fromInterestPaidOnLoan + +income.fromRental + +income.fromOtherIncome;
     const totalDeductions = +deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
-    const taxableIncome = totalIncome - STANDARD_DEDUCTION - totalDeductions + +income.fromExemptAllowances;
+    let taxableIncome = totalIncome  - totalDeductions - +income.fromExemptAllowances ;
+    taxableIncome = taxableIncome < 0? 0 : taxableIncome;
     let tax = 0;
-    const cess = 4;
+    const cess = EDUCATIONAL_CESS; //4 percent cess
     if (taxableIncome > 300000 && taxableIncome <= 600000) {
         tax = (taxableIncome * 5) / 100;
     } else if (taxableIncome > 600000 && taxableIncome <= 900000) {
@@ -22,11 +24,15 @@ function OldRegime(props) {
     } else if (taxableIncome > 1500000) {
         tax = (taxableIncome * 30) / 100;
     }
-    tax = tax + (tax * cess) / 100;
+    if(taxableIncome > 300000){
+        tax = tax + (tax * cess) / 100;
+        tax = tax - STANDARD_DEDUCTION;
+    }
     tax = tax.toFixed(2);
+    
     return <div className="fragment" style={{ 'fontSize': '20px' }}>
-        Taxable Income {taxableIncome} <br />
-        Tax as per Old Regime <span style={{ 'color': 'green', 'fontSize': '25px', 'fontWeight': 'bold' }}>{tax} Rs</span>
+        Taxable Income <br/>{taxableIncome.toFixed(2)} Rs.<br />
+        Tax as per Old Regime <br/><span style={{ 'color': 'green', 'fontSize': '25px', 'fontWeight': 'bold' }}>{tax} Rs.</span>
     </div>;
 }
 function NewRegime(props) {
@@ -34,12 +40,11 @@ function NewRegime(props) {
     const deductions = props.deductions;
 
     const totalIncome = +income.fromSalary + +income.fromDigitalAssets + +income.fromInterest + +income.fromInterestPaidOnHomeLoan + +income.fromInterestPaidOnLoan + +income.fromRental + +income.fromOtherIncome;
-    const totalDeductions = +deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
-    const taxableIncomeBeforeCess = totalIncome - STANDARD_DEDUCTION - totalDeductions - +income.fromExemptAllowances;
-    const cess = 4;
-    const taxableIncome = taxableIncomeBeforeCess;
+    const totalDeductions = 0;//+deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
+    let taxableIncome = totalIncome  - totalDeductions - +income.fromExemptAllowances  ;
+    taxableIncome = taxableIncome < 0? 0 : taxableIncome;
     let tax = 0;
-
+    const cess = EDUCATIONAL_CESS; //4 percent cess
     if (taxableIncome > 300000 && taxableIncome <= 600000) {
         tax = (taxableIncome * 5) / 100;
     } else if (taxableIncome > 600000 && taxableIncome <= 900000) {
@@ -51,10 +56,14 @@ function NewRegime(props) {
     } else if (taxableIncome > 1500000) {
         tax = (taxableIncome * 30) / 100;
     }
+    if(taxableIncome > 300000){
+        tax = tax + (tax * cess) / 100;
+        tax = tax - STANDARD_DEDUCTION;
+    }
     tax = tax.toFixed(2);
     return <div className="fragment" style={{ 'fontSize': '20px' }}>
-        Taxable Income {taxableIncome} <br />
-        Tax as per New Regime <span style={{ 'color': 'blue', 'fontSize': '25px', 'fontWeight': 'bold' }}>{tax} Rs</span>
+        Taxable Income <br/>{taxableIncome.toFixed(2)} Rs.<br />
+        Tax as per New Regime <br/><span style={{ 'color': 'blue', 'fontSize': '25px', 'fontWeight': 'bold' }}>{tax} Rs.</span>
     </div>;
 }
 export default function IncomeTaxCalculator() {
