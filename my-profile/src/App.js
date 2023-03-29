@@ -3,6 +3,9 @@ import './App.css';
 import { RouterProvider,createBrowserRouter } from 'react-router-dom';
 import  IncomeTaxCalculator  from './pages/IncomeTax/IncomeTaxCalculator';
 import Profile from './pages/Profile/Profile';
+
+
+
 const router = createBrowserRouter([{
   path:'/',
   element:<Profile></Profile>
@@ -12,6 +15,7 @@ const router = createBrowserRouter([{
 
 }]);
 function App() {
+ 
   return (
     <div className="App">
       <RouterProvider router={router}></RouterProvider>
