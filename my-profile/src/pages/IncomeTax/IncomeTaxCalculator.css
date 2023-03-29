@@ -14,3 +14,23 @@
     color:black;
     padding:10px 20px;
 }
+.regime.new{
+    color:blue;
+}
+.regime.old{
+    color:green;
+}
+.form{
+    text-align: center;
+    width:100%;
+}
+.form > form{
+    margin:auto;
+    display:inline-block;
+}
+.fragment{
+    padding:20px;
+}
+.pd-r{
+    padding-right:17px;
+}
