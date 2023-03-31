@@ -102,7 +102,7 @@ function NewRegime(props) {
     +income.fromInterestPaidOnLoan +
     +income.fromRental +
     +income.fromOtherIncome;
-  const totalDeductions = +deductions.empNPSContribution; //+deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
+  const totalDeductions = +deductions.empNPSContribution + +deductions.interestonHousingLoan; //+deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
   let taxableIncome = totalIncome - totalDeductions - STANDARD_DEDUCTION;
   const taxableIncomeDisplay = taxableIncome;
   taxableIncome = taxableIncome < 0 ? 0 : taxableIncome;
