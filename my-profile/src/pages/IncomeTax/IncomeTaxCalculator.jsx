@@ -25,42 +25,31 @@ function OldRegime(props) {
     +deductions.donationsToCharity +
     +deductions.interestonHousingLoan;
   let taxableIncome =
-    totalIncome - totalDeductions - +income.fromExemptAllowances;
+    totalIncome - totalDeductions - +income.fromExemptAllowances - STANDARD_DEDUCTION;
   const taxableIncomeDisplay = taxableIncome;
   taxableIncome = taxableIncome < 0 ? 0 : taxableIncome;
   let tax = 0;
   const cess = EDUCATIONAL_CESS; //4 percent cess
-  if (taxableIncome > 300000) {
-    const taxComponentAmount = taxComponent(300000, 600000, taxableIncome);
+  if (taxableIncome > 250000) {
+    const taxComponentAmount = taxComponent(250000, 500000, taxableIncome);
     const taxSlabComponent = (taxComponentAmount * 5) / 100;
     tax += taxSlabComponent;
     console.log("tax added 1", taxSlabComponent);
   }
-  if (taxableIncome > 600000) {
-    const taxComponentAmount = taxComponent(600000, 900000, taxableIncome);
-    const taxSlabComponent = (taxComponentAmount * 10) / 100;
+  if (taxableIncome > 500000) {
+    const taxComponentAmount = taxComponent(500000, 1000000, taxableIncome);
+    const taxSlabComponent = (taxComponentAmount * 20) / 100;
     tax += taxSlabComponent;
     console.log("tax added 2", taxSlabComponent);
   }
-  if (taxableIncome > 900000) {
-    const taxComponentAmount = taxComponent(900000, 1200000, taxableIncome);
-    const taxSlabComponent = (taxComponentAmount * 15) / 100;
-    tax += taxSlabComponent;
-    console.log("tax added 3", taxSlabComponent);
-  }
-  if (taxableIncome > 1200000) {
-    const taxComponentAmount = taxComponent(1200000, 1500000, taxableIncome);
-    const taxSlabComponent = (taxComponentAmount * 20) / 100;
-    tax += taxSlabComponent;
-    console.log("tax added 4", taxSlabComponent);
-  }
-  if (taxableIncome > 1500000) {
+  if (taxableIncome > 1000000) {
     const taxComponentAmount = taxableIncome - 1500000;
     const taxSlabComponent = (taxComponentAmount * 30) / 100;
     tax += taxSlabComponent;
-    console.log("tax added 5", taxSlabComponent);
+    console.log("tax added 3", taxSlabComponent);
   }
-  if (taxableIncome > 300000) {
+ 
+  if (taxableIncome > 250000) {
     tax += (tax * cess) / 100;
     //tax = tax - STANDARD_DEDUCTION;
   }
@@ -83,7 +72,6 @@ function OldRegime(props) {
           fontWeight: "bold",
         }}
       >
-        
         {tax}
         Rs.
       </span>
@@ -114,8 +102,8 @@ function NewRegime(props) {
     +income.fromInterestPaidOnLoan +
     +income.fromRental +
     +income.fromOtherIncome;
-  const totalDeductions = 0; //+deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
-  let taxableIncome = totalIncome - totalDeductions;
+  const totalDeductions = +deductions.empNPSContribution; //+deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
+  let taxableIncome = totalIncome - totalDeductions - STANDARD_DEDUCTION;
   const taxableIncomeDisplay = taxableIncome;
   taxableIncome = taxableIncome < 0 ? 0 : taxableIncome;
   let tax = 0;
@@ -172,7 +160,6 @@ function NewRegime(props) {
           fontWeight: "bold",
         }}
       >
-        
         {tax}
         Rs.
       </span>
@@ -208,7 +195,7 @@ export default function IncomeTaxCalculator() {
   return (
     <div className="container">
       <div className="header">
-        Income tax calculator for & nbsp;
+        Income tax calculator for 
         <span className={`regime ${regime}`}> {regime} </span> regime
         <sub
           style={{
@@ -216,7 +203,6 @@ export default function IncomeTaxCalculator() {
             color: "grey",
           }}
         >
-          
           experimental
         </sub>
       </div>
