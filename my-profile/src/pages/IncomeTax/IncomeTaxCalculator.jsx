@@ -25,7 +25,8 @@ function OldRegime(props) {
     +deductions.donationsToCharity +
     +deductions.interestonHousingLoan;
   let taxableIncome =
-    totalIncome - totalDeductions - +income.fromExemptAllowances - STANDARD_DEDUCTION;
+    totalIncome - totalDeductions - +income.fromExemptAllowances;
+  taxableIncome = taxableIncome > 250000?  taxableIncome - STANDARD_DEDUCTION : 0;
   const taxableIncomeDisplay = taxableIncome;
   taxableIncome = taxableIncome < 0 ? 0 : taxableIncome;
   let tax = 0;
@@ -103,7 +104,8 @@ function NewRegime(props) {
     +income.fromRental +
     +income.fromOtherIncome;
   const totalDeductions = +deductions.empNPSContribution + +deductions.interestonHousingLoan; //+deductions.basic + +deductions.medicalInsurance + +deductions.interestOnEducationalLoan + +deductions.empNPSContribution + +deductions.interestFromDeposits + +deductions.donationsToCharity + +deductions.interestonHousingLoan;
-  let taxableIncome = totalIncome - totalDeductions - STANDARD_DEDUCTION;
+  let taxableIncome = totalIncome - totalDeductions;
+  taxableIncome = taxableIncome > 300000?  taxableIncome - STANDARD_DEDUCTION : 0;
   const taxableIncomeDisplay = taxableIncome;
   taxableIncome = taxableIncome < 0 ? 0 : taxableIncome;
   let tax = 0;
