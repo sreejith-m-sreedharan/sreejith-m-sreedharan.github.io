@@ -4,12 +4,14 @@ import { RouterProvider,createBrowserRouter } from 'react-router-dom';
 import  IncomeTaxCalculator  from './pages/IncomeTax/IncomeTaxCalculator';
 import EmiCalculator from './pages/Emi/EmiCalculator';
 import Profile from './pages/Profile/Profile';
-
-
+import Stock from './pages/Stock/Stock';
 
 const router = createBrowserRouter([{
   path:'/',
   element:<Profile></Profile>
+},{
+  path:'/stock',
+  element:<Stock></Stock>
 },{
   path:'/incometax',
   element:<IncomeTaxCalculator></IncomeTaxCalculator>
@@ -17,8 +19,9 @@ const router = createBrowserRouter([{
   path:'/emi',
   element:<EmiCalculator></EmiCalculator>
 }]);
-function App() {
- 
+export default function App() {
+  
+ console.log("app called for ",global.location.pathname);
   return (
     <div className="App">
       <RouterProvider router={router}></RouterProvider>
@@ -26,4 +29,3 @@ function App() {
   );
 }
 
-export default App;
