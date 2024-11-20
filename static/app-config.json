@@ -1,0 +1,87 @@
+{
+    "dataGroup": [
+        {
+             "label" : "Malayalam News", "content": [
+                {
+                    "name": "Reporter Live",
+                    "url": "https://www.youtube.com/embed/HGOiuQUwqEw?si=C7zUI9UHM39aZIdo",
+                    "icon": "assets/logos/ReporterLive.png"
+                },
+                {
+                    "name": "Asianet Live",
+                    "url": "https://www.youtube.com/embed/Ko18SgceYX8?si=0dfi1vyE8St6clVK",
+                    "icon": "assets/logos/AsianetLive.png"
+                },
+                {
+                    "name": "Mathrubhumi Live",
+                    "url": "https://www.youtube.com/embed/YGEgelAiUf0?si=VJnDN42TiVzb_dLs",
+                    "icon": "assets/logos/MathrubhumiNewsLive.png"
+                },
+                {
+                    "name": "Manorama News Live",
+                    "url": "https://www.youtube.com/embed/tgBTspqA5nY?si=LEZK1mrdidfcoisC",
+                    "icon": "assets/logos/ManoramaLive.png"
+                },
+                {
+                    "name": "24 News Live",
+                    "url": "https://www.youtube.com/embed/1wECsnGZcfc?si=LPtCSnKo4hza3jei",
+                    "icon": "assets/logos/24NewsLive.png"
+                },
+                {
+                    "name": "Kairali News Live",
+                    "url": "https://www.youtube.com/embed/wq0ecjkN3G8?si=V_TH5wKc-KJ2JN_N",
+                    "icon": "assets/logos/KairaliNewsLive.png"
+                },
+                {
+                    "name": "News 18 Kerala Live",
+                    "url": "https://www.youtube.com/embed/KHT3jArmZAE?si=FmJnBr-D0_h1CkdU",
+                    "icon": "assets/logos/News18Live.png"
+                },
+                {
+                    "name": "Media One Live",
+                    "url": "https://www.youtube.com/embed/-8d8-c0yvyU?si=S4KyRwoR3oFd01Z4",
+                    "icon": "assets/logos/MediaOneLive.png"
+                },
+                {
+                    "name": "Janam TV Live",
+                    "url": "https://www.youtube.com/embed/Vcm0OBHT7Ww?si=58s4nva7W6aJTO7T",
+                    "icon": "assets/logos/JanamTVLive.png"
+                }
+            ]
+        },
+        {
+            "label" : "Other Language News", "content": [
+                {
+                    "name": "WION Live News",
+                    "url": "https://www.youtube.com/embed/gadjsB5BkK4?si=oJaOnJ9Kq_I8RY2V",
+                    "icon": "assets/logos/WionNewsLive.png"
+                },
+                {
+                    "name": "India Today News Live",
+                    "url": "https://www.youtube.com/embed/sYZtOFzM78M?si=QDikzwV4m_xR8Hwp",
+                    "icon": "assets/logos/IndiaTodayNewsLive.png"
+                },
+                {
+                    "name": "24x7 News Live",
+                    "url": "https://www.youtube.com/embed/9vJOda0Vck0?si=2H8kgAcmvzqGMA5w",
+                    "icon": "assets/logos/24x7NewsLive.png"
+                },
+                {
+                    "name": "Republic World News Live",
+                    "url": "https://www.youtube.com/embed/DGtEPh-ZZ-A?si=lT7-yRt5Ez8KOS5x",
+                    "icon": "assets/logos/RepublicWorldNewsLive.png"
+                },
+                {
+                    "name": "The Indian Express News Live",
+                    "url": "https://www.youtube.com/embed/fGnitMIc6Cs?si=wZ-IAKtE9H7lYgW6",
+                    "icon": "assets/logos/TheIndianExpressNewsLive.png"
+                },
+                {
+                    "name": "CNN News 18 Live",
+                    "url": "https://www.youtube.com/embed/wkUTwnJXAsk?si=zpDoKtDTbPsSkGMN",
+                    "icon": "assets/logos/CNNNewsLive.png"
+                }
+            ]
+        }
+    ]
+}
