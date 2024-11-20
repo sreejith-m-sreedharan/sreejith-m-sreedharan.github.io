@@ -34,7 +34,7 @@
                 },
                 {
                     "name": "News 18 Kerala Live",
-                    "url": "https://www.youtube.com/embed/KHT3jArmZAE?si=FmJnBr-D0_h1CkdU",
+                    "url": "https://www.youtube.com/embed/VY_fsAvlRAA?si=U8AvkCMD8M4xrxiF",
                     "icon": "assets/logos/News18Live.png"
                 },
                 {
@@ -44,7 +44,7 @@
                 },
                 {
                     "name": "Janam TV Live",
-                    "url": "https://www.youtube.com/embed/Vcm0OBHT7Ww?si=58s4nva7W6aJTO7T",
+                    "url": "https://www.youtube.com/embed/DxK8pVYckWo?si=uqOS9K-ypfufkAq5",
                     "icon": "assets/logos/JanamTVLive.png"
                 }
             ]
@@ -53,17 +53,17 @@
             "label" : "Other Language News", "content": [
                 {
                     "name": "WION Live News",
-                    "url": "https://www.youtube.com/embed/gadjsB5BkK4?si=oJaOnJ9Kq_I8RY2V",
+                    "url": "https://www.youtube.com/embed/gadjsB5BkK4?si=VWZfcyaHw9TRz_EQ",
                     "icon": "assets/logos/WionNewsLive.png"
                 },
                 {
                     "name": "India Today News Live",
-                    "url": "https://www.youtube.com/embed/sYZtOFzM78M?si=QDikzwV4m_xR8Hwp",
+                    "url": "https://www.youtube.com/embed/sYZtOFzM78M?si=gCooBKDvZpNai3eA",
                     "icon": "assets/logos/IndiaTodayNewsLive.png"
                 },
                 {
                     "name": "24x7 News Live",
-                    "url": "https://www.youtube.com/embed/9vJOda0Vck0?si=2H8kgAcmvzqGMA5w",
+                    "url": "https://www.youtube.com/embed/sr2Ry9JVDtU?si=z-WI9klwQTkJOPxm",
                     "icon": "assets/logos/24x7NewsLive.png"
                 },
                 {
@@ -73,12 +73,12 @@
                 },
                 {
                     "name": "The Indian Express News Live",
-                    "url": "https://www.youtube.com/embed/fGnitMIc6Cs?si=wZ-IAKtE9H7lYgW6",
+                    "url": "https://www.youtube.com/embed/ATQvYXmroG4?si=mR9zKO6FFbK7KpRv",
                     "icon": "assets/logos/TheIndianExpressNewsLive.png"
                 },
                 {
                     "name": "CNN News 18 Live",
-                    "url": "https://www.youtube.com/embed/wkUTwnJXAsk?si=zpDoKtDTbPsSkGMN",
+                    "url": "https://www.youtube.com/embed/rfDx1HMvXbQ?si=rpHbGqY91ehtgk1f",
                     "icon": "assets/logos/CNNNewsLive.png"
                 }
             ]
