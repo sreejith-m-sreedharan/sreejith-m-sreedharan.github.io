@@ -1,5 +1,4 @@
 {    
-    "pingUrl":"local",
     "dataGroup": [
         {
              "label" : "Malayalam News", "content": [
