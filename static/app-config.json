@@ -2,7 +2,7 @@
     "fileId": "1wxGMnyy1qsvRNABZ7I0csStQR_s5wfl6",
     "fileBaseUrl": "https://www.googleapis.com/drive/v3/files/",
     "scope": [
-        "https://www.googleapis.com/auth/drive.file"
+       "email", "https://www.googleapis.com/auth/drive.file"
     ],
     "dataGroup": [
         {
