@@ -1,4 +1,5 @@
-{   "scope":[ "...auth/drive.file"],
+{   
+"scope": [".../auth/drive.file"],
     "dataGroup": [
         {
              "label" : "Malayalam News", "content": [
