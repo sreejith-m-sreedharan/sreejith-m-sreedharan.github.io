@@ -57,46 +57,48 @@
                     "name": "News Malayalam 24x7",
                     "url": "https://www.youtube.com/embed/vi1Fyk4NS94?si=wR60nQNbdfvd3HpF",
                     "iconUrl": "https://www.newsmalayalam.com/_next/image?url=%2F_…atic%2Fmedia%2Fmain-logo.a6a64925.png&w=1080&q=75"
+                }
+            ]
+        },
+        {
+            "label": "Other Language News",
+            "content": [
+                {
+                    "name": "WION Live News",
+                    "url": "https://www.youtube.com/embed/gadjsB5BkK4?si=OCqHk_4yPx1H3An7",
+                    "icon": "assets/logos/WionNewsLive.png"
                 },
                 {
-                    "label": "Other Language News",
-                    "content": [
-                        {
-                            "name": "WION Live News",
-                            "url": "https://www.youtube.com/embed/gadjsB5BkK4?si=OCqHk_4yPx1H3An7",
-                            "icon": "assets/logos/WionNewsLive.png"
-                        },
-                        {
-                            "name": "India Today News Live",
-                            "url": "https://www.youtube.com/embed/sYZtOFzM78M?si=gCooBKDvZpNai3eA",
-                            "icon": "assets/logos/IndiaTodayNewsLive.png"
-                        },
-                        {
-                            "name": "24x7 News Live",
-                            "url": "https://www.youtube.com/embed/sr2Ry9JVDtU?si=z-WI9klwQTkJOPxm",
-                            "icon": "assets/logos/24x7NewsLive.png"
-                        },
-                        {
-                            "name": "Republic World News Live",
-                            "url": "https://www.youtube.com/embed/DGtEPh-ZZ-A?si=lT7-yRt5Ez8KOS5x",
-                            "icon": "assets/logos/RepublicWorldNewsLive.png"
-                        },
-                        {
-                            "name": "The Indian Express News Live",
-                            "url": "https://www.youtube.com/embed/ATQvYXmroG4?si=mR9zKO6FFbK7KpRv",
-                            "icon": "assets/logos/TheIndianExpressNewsLive.png"
-                        },
-                        {
-                            "name": "CNN News 18 Live",
-                            "url": "https://www.youtube.com/embed/rfDx1HMvXbQ?si=rpHbGqY91ehtgk1f",
-                            "icon": "assets/logos/CNNNewsLive.png"
-                        },
-                        {
-                            "name": "WION Gravitas Live News",
-                            "url": "https://www.youtube.com/embed/m0h0vJdU6LM?si=mH9IP0jxeU5rsFUw",
-                            "icon": "assets/logos/WionNewsLive.png"
-                        }
-                    ]
+                    "name": "India Today News Live",
+                    "url": "https://www.youtube.com/embed/sYZtOFzM78M?si=gCooBKDvZpNai3eA",
+                    "icon": "assets/logos/IndiaTodayNewsLive.png"
+                },
+                {
+                    "name": "24x7 News Live",
+                    "url": "https://www.youtube.com/embed/sr2Ry9JVDtU?si=z-WI9klwQTkJOPxm",
+                    "icon": "assets/logos/24x7NewsLive.png"
+                },
+                {
+                    "name": "Republic World News Live",
+                    "url": "https://www.youtube.com/embed/DGtEPh-ZZ-A?si=lT7-yRt5Ez8KOS5x",
+                    "icon": "assets/logos/RepublicWorldNewsLive.png"
+                },
+                {
+                    "name": "The Indian Express News Live",
+                    "url": "https://www.youtube.com/embed/ATQvYXmroG4?si=mR9zKO6FFbK7KpRv",
+                    "icon": "assets/logos/TheIndianExpressNewsLive.png"
+                },
+                {
+                    "name": "CNN News 18 Live",
+                    "url": "https://www.youtube.com/embed/rfDx1HMvXbQ?si=rpHbGqY91ehtgk1f",
+                    "icon": "assets/logos/CNNNewsLive.png"
+                },
+                {
+                    "name": "WION Gravitas Live News",
+                    "url": "https://www.youtube.com/embed/m0h0vJdU6LM?si=mH9IP0jxeU5rsFUw",
+                    "icon": "assets/logos/WionNewsLive.png"
                 }
             ]
         }
+    ]
+}
