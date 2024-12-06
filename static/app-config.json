@@ -4,7 +4,7 @@
     "scope": [
         "https://www.googleapis.com/auth/drive.file"
     ],
-    "ytPlayer" : "assets/html/youtube_player_iframe.html",
+    "ytPlayer" : "assets/html/youtube_player.html",
     "dataGroup": [
         {
             "label": "Malayalam News",
