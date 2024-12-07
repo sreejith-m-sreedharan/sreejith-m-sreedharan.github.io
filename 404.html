@@ -1,5 +1,9 @@
 <script>
     const path = window.location.pathname.slice(1);
-    localStorage.setItem('path', path);
-    window.location.href='../';
+    if(path == "sensible_redirect"){
+        window.location.href = './static/redirect.html';
+    }else{
+        localStorage.setItem('path', path);
+        window.location.href='../';
+    }
 </script>
