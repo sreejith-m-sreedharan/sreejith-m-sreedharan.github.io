@@ -1,8 +1,8 @@
 {
-    "fileId": "1wxGMnyy1qsvRNABZ7I0csStQR_s5wfl6",
+    "fileId": "1RVVWWf7ZMGORm16aPQnOKzVBc7jFf866",
     "fileBaseUrl": "https://www.googleapis.com/drive/v3/files/",
     "scope": [
-        "https://www.googleapis.com/auth/drive.file"
+        "https://www.googleapis.com/auth/drive"
     ],
     "ytPlayer" : "assets/html/youtube_player.html",
     "dataGroup": [
