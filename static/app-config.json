@@ -5,7 +5,7 @@
         "https://www.googleapis.com/auth/drive"
     ],
     "ytPlayer" : "assets/html/youtube_player.html",
-    "isNativeYtPlayer": false,
+    "isNativeYtPlayer": true,
     "dataGroup": [
         {
             "label": "Malayalam News",
