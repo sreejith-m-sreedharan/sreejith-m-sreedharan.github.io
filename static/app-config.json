@@ -108,9 +108,9 @@
                     "icon": "assets/logos/WionNewsLive.png"
                 },
                 {
-                    "name": "Sky News",
+                    "name":"Sky News",
                     "url": "https://www.youtube.com/embed/YDvsBbKfLPA?si=FkXF3kZPUcpqMJwc",
-                    "iconUrl": "https://yt3.googleusercontent.com/dGnkztdrLtXRlzkdqReeL-NES2761xxmNVcJhGKqFpR0vQBoP9XaxnXF95FDpwrjyFr2iJvV8Es=s160-c-k-c0x00ffffff-no-rj",
+                   "iconUrl": "https://yt3.googleusercontent.com/dGnkztdrLtXRlzkdqReeL-NES2761xxmNVcJhGKqFpR0vQBoP9XaxnXF95FDpwrjyFr2iJvV8Es=s160-c-k-c0x00ffffff-no-rj",
 "iconType": "image/jpeg"
                 },
             ]
