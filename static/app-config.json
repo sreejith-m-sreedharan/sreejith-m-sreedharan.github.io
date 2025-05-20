@@ -6,7 +6,7 @@
     ],
     "ytPlayer" : "assets/html/youtube_player.html",
     "isNativeYtPlayer": false,
-    "screenSaver" : "http://192.168.1.2:8080/static/images/pexels-iriser-1379640.jpg",
+    "screenSaver" : "https://raw.githubusercontent.com/sreejith-m-sreedharan/sreejith-m-sreedharan.github.io/refs/heads/main/static/images/pexels-iriser-1379640.jpg",
     "dataGroup": [
         {
             "label": "Malayalam News",
