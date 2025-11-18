@@ -1,6 +1,6 @@
 {
     "fileId": "1Vn6ZPGBB2JzVLoI-RfocH1R4AkBH88Az",
-    "ytPlayer" : "assets/html/youtube_player_iframe.html",
+    "ytPlayer" : "assets/html/youtube_player.html",
     "isNativeYtPlayer": false,
     "screenSaver" : "https://drive.usercontent.google.com/download?id=1YG7yTH6IWSJ7hCnko_WMqKHDX18rdOXl&export=download&authuser=0&confirm=t&uuid=7bbec6a9-9327-4b2b-b183-f51f16ca619a&at=ALoNOgn0IvGlSBM9Jp8VVOnHOqj2:1748812315519",
     "screenSaverAudio" : "https://drive.usercontent.google.com/download?id=1rvNUYcz4MfI0SztvAoxhO9PN97hfZp_l&export=download&authuser=0&confirm=t&uuid=38390b63-0fc7-4c34-830c-82815a69e367&at=ALoNOgmri9BgT9KTODfHwyAtifdb:1748873246877",
@@ -10,52 +10,52 @@
             "content": [
                 {
                     "name": "Reporter Live",
-                    "url": "https://www.youtube-nocookie.com/embed/nObUcHKZEGY?si=WzTEjdxzDSCHepX1",
+                    "url": "https://www.youtube.com/embed/nObUcHKZEGY?si=WzTEjdxzDSCHepX1",
                     "icon": "assets/logos/ReporterLive.png"
                 },
                 {
                     "name": "Asianet Live",
-                    "url": "https://www.youtube-nocookie.com/embed/tXRuaacO-ZU?si=7FNBdm6x_jleFOXg",
+                    "url": "https://www.youtube.com/embed/tXRuaacO-ZU?si=7FNBdm6x_jleFOXg",
                     "icon": "assets/logos/AsianetLive.png"
                 },
                 {
                     "name": "Mathrubhumi Live",
-                    "url": "https://www.youtube-nocookie.com/embed/YGEgelAiUf0?si=VJnDN42TiVzb_dLs",
+                    "url": "https://www.youtube.com/embed/YGEgelAiUf0?si=VJnDN42TiVzb_dLs",
                     "icon": "assets/logos/MathrubhumiNewsLive.png"
                 },
                 {
                     "name": "Manorama News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/tgBTspqA5nY?si=LEZK1mrdidfcoisC",
+                    "url": "https://www.youtube.com/embed/tgBTspqA5nY?si=LEZK1mrdidfcoisC",
                     "icon": "assets/logos/ManoramaLive.png"
                 },
                 {
                     "name": "24 News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/1wECsnGZcfc?si=LPtCSnKo4hza3jei",
+                    "url": "https://www.youtube.com/embed/1wECsnGZcfc?si=LPtCSnKo4hza3jei",
                     "icon": "assets/logos/24NewsLive.png"
                 },
                 {
                     "name": "Kairali News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/yiiqRHY1Bl8?si=H9W5I_Sx1ozA_XxW",
+                    "url": "https://www.youtube.com/embed/yiiqRHY1Bl8?si=H9W5I_Sx1ozA_XxW",
                     "icon": "assets/logos/KairaliNewsLive.png"
                 },
                 {
                     "name": "News 18 Kerala Live",
-                    "url": "https://www.youtube-nocookie.com/embed/_BepFXxcNEQ?si=scJbQu6OZd8VuVJM",
+                    "url": "https://www.youtube.com/embed/_BepFXxcNEQ?si=scJbQu6OZd8VuVJM",
                     "icon": "assets/logos/News18Live.png"
                 },
                 {
                     "name": "Media One Live",
-                    "url": "https://www.youtube-nocookie.com/embed/-8d8-c0yvyU?si=S4KyRwoR3oFd01Z4",
+                    "url": "https://www.youtube.com/embed/-8d8-c0yvyU?si=S4KyRwoR3oFd01Z4",
                     "icon": "assets/logos/MediaOneLive.png"
                 },
                 {
                     "name": "Janam TV Live",
-                    "url":"https://www.youtube-nocookie.com/embed/yKWe25rKSpU?si=lHelOJHDTk-cHe8g",
+                    "url":"https://www.youtube.com/embed/yKWe25rKSpU?si=lHelOJHDTk-cHe8g",
                     "icon": "assets/logos/JanamTVLive.png"
                 },
                 {
                     "name": "News Malayalam 24x7",
-                    "url": "https://www.youtube-nocookie.com/embed/zEm78nYURIk?si=0NQQ8WH1l365JB5k",
+                    "url": "https://www.youtube.com/embed/zEm78nYURIk?si=0NQQ8WH1l365JB5k",
                     "iconUrl": "https://yt3.googleusercontent.com/5MSHyRwoGwFhPgELh8VZ3FMQZ80EqxN2lcNJzK0YU10vETY1xskDhFy217YsZiO5ecgYfngakg=s160-c-k-c0x00ffffff-no-rj",
                     "iconType": "image/jpeg"
                 }
@@ -66,48 +66,48 @@
             "content": [
               {
                     "name": "WION Live News",
-                    "url": "https://www.youtube-nocookie.com/embed/vfszY1JYbMc?si=1qcXeBo5vV-C0XFD",
+                    "url": "https://www.youtube.com/embed/vfszY1JYbMc?si=1qcXeBo5vV-C0XFD",
                     "icon": "assets/logos/WionNewsLive.png"
                 },
                 {
                     "name": "Times of India",
-                    "url": "https://www.youtube-nocookie.com/embed/26IsYJ_iZrw?si=JILIFI-1_oZvZv2T",
+                    "url": "https://www.youtube.com/embed/26IsYJ_iZrw?si=JILIFI-1_oZvZv2T",
                     "iconUrl": "https://yt3.googleusercontent.com/cJ4vDypJDnXZhV5MxHZ3-f7nr1h9zEv4Zh7mlMlNe0vDO2R82gKZXnf57RVUUiDXfE1e554ArA=s160-c-k-c0x00ffffff-no-rj",
                     "iconType": "image/jpeg"
                 },
                 {
                     "name": "India Today News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/mq6YzA8wgMU?si=ybfeul_P2nusbP0l",
+                    "url": "https://www.youtube.com/embed/mq6YzA8wgMU?si=ybfeul_P2nusbP0l",
                     "icon": "assets/logos/IndiaTodayNewsLive.png"
                 },
                 {
                     "name": "24x7 News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/iiQ6MKcLtA4?si=eAsKIVsXgeHtpdyb",
+                    "url": "https://www.youtube.com/embed/iiQ6MKcLtA4?si=eAsKIVsXgeHtpdyb",
                     "icon": "assets/logos/24x7NewsLive.png"
                 },
                 {
                     "name": "Republic World News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/mtkaigDP1jY?si=9dnuEDpalgcyoYj3",
+                    "url": "https://www.youtube.com/embed/mtkaigDP1jY?si=9dnuEDpalgcyoYj3",
                     "icon": "assets/logos/RepublicWorldNewsLive.png"
                 },
                 {
                     "name": "The Indian Express News Live",
-                    "url": "https://www.youtube-nocookie.com/embed/LEIdIkd8j6w?si=XAZOIsIjr-btXkzu",
+                    "url": "https://www.youtube.com/embed/LEIdIkd8j6w?si=XAZOIsIjr-btXkzu",
                     "icon": "assets/logos/TheIndianExpressNewsLive.png"
                 },
                 {
                     "name": "CNN News 18 Live",
-                    "url": "https://www.youtube-nocookie.com/embed/Niv3tITbddU?si=AF3yoVVea7io7hOw",
+                    "url": "https://www.youtube.com/embed/Niv3tITbddU?si=AF3yoVVea7io7hOw",
                     "icon": "assets/logos/CNNNewsLive.png"
                 },
                 {
                     "name": "WION Gravitas Live News",
-                    "url": "https://www.youtube-nocookie.com/embed/9VG1wRcAfxY?si=KH-cNZmwMyDcx9_l",
+                    "url": "https://www.youtube.com/embed/9VG1wRcAfxY?si=KH-cNZmwMyDcx9_l",
                     "icon": "assets/logos/WionNewsLive.png"
                 },
                 {
                     "name":"Sky News",
-                    "url": "https://www.youtube-nocookie.com/embed/YDvsBbKfLPA?si=S4w-48xSB4IQX7WR",
+                    "url": "https://www.youtube.com/embed/YDvsBbKfLPA?si=S4w-48xSB4IQX7WR",
                     "iconUrl": "https://yt3.googleusercontent.com/dGnkztdrLtXRlzkdqReeL-NES2761xxmNVcJhGKqFpR0vQBoP9XaxnXF95FDpwrjyFr2iJvV8Es=s160-c-k-c0x00ffffff-no-rj",
                     "iconType": "image/jpeg"
                 }
