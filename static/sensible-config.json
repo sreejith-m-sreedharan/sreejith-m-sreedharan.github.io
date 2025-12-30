@@ -4,6 +4,10 @@
     "isNativeYtPlayer": false,
     "screenSaver" : "https://drive.usercontent.google.com/download?id=1YG7yTH6IWSJ7hCnko_WMqKHDX18rdOXl&export=download&authuser=0&confirm=t&uuid=7bbec6a9-9327-4b2b-b183-f51f16ca619a&at=ALoNOgn0IvGlSBM9Jp8VVOnHOqj2:1748812315519",
     "screenSaverAudio" : "https://drive.usercontent.google.com/download?id=1rvNUYcz4MfI0SztvAoxhO9PN97hfZp_l&export=download&authuser=0&confirm=t&uuid=38390b63-0fc7-4c34-830c-82815a69e367&at=ALoNOgmri9BgT9KTODfHwyAtifdb:1748873246877",
+    "ePapers": [{
+        "label": "The Hindu E-Paper",
+        "url": "https://epaper.thehindu.com/reader"
+    }],
     "dataGroup": [
         {
             "label": "Malayalam News",
