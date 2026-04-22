@@ -14,12 +14,11 @@
   "newsList": [
     {
       "label": "Malayalam News",
-
       "content": [
         {
           "name": "BIG TV Live",
           "url": "https://www.youtube.com/embed/GOvhHvvm3RQ?si=AM4LNXdsP_Ou36R3",
-          "icon": "https://yt3.googleusercontent.com/blnfLkIGphkSPHfWy4SVOVyHlrWSAEn2pArAS5wdH7tYmXAFD4dVMGLtSmZr5R5CNl1d2cUuDw=s160-c-k-c0x00ffffff-no-rj"
+          "iconUrl": "https://yt3.googleusercontent.com/blnfLkIGphkSPHfWy4SVOVyHlrWSAEn2pArAS5wdH7tYmXAFD4dVMGLtSmZr5R5CNl1d2cUuDw=s160-c-k-c0x00ffffff-no-rj"
         },
         {
           "name": "Reporter Live",
